@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Daily BatchWise Details" max_length="40" name="x_475692_training_daily_batchwise_details" sizeclass="0" type="collection">
+    <element label="Daily BatchWise Details" max_length="40" name="x_475692_training_daily_batchwise_details" type="collection">
         <element label="Batch id" max_length="32" name="batch_id" reference="x_475692_training_batches" type="reference"/>
         <element label="Course id" max_length="32" name="course_id" reference="x_475692_training_courses" type="reference"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
-        <element label="id" max_length="40" name="id" type="integer"/>
+        <element display="true" label="id" max_length="40" name="id" type="integer"/>
         <element label="Session id" max_length="32" name="session_id" reference="x_475692_training_sessions" type="reference"/>
         <element label="Student comments" max_length="40" name="student_comments" type="string"/>
         <element label="Trainer comments" max_length="40" name="trainer_comments" type="string"/>
